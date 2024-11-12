@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potter Adventure Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Harry Potter Adventure</h1>
+    </header>
+
+    <main>
+        <div id="story">
+            <!-- Game story and image will be dynamically loaded here -->
+        </div>
+
+        <div id="choices">
+            <!-- Game choices will be dynamically loaded here -->
+        </div>
+
+        <div id="endGameMessage" class="hidden">
+            <p>Thank you for playing! Your adventure has come to an end.</p>
+            <button id="restartButton">Restart Game</button>
+        </div>
+    </main>
+
+    <footer>
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="game.js"></script>
+</body>
+</html>

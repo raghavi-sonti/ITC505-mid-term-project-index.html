@@ -1,0 +1,161 @@
+/* Addendum styling */
+#addendum {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f3e5ab;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-family: 'Georgia', serif;
+    color: #333;  /* Ensure text is dark enough to be readable */
+}
+
+#addendum h2 {
+    text-align: center;
+    color: #4e2a84;
+}
+
+#addendum ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#addendum p, #addendum ul {
+    font-size: 14px;
+    color: #555;
+}
+
+#addendum li {
+    margin-bottom: 10px;
+}
+
+/* General Styling */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f7f7f7;
+    color: #333;  /* Default text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('hogwarts-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header */
+header {
+    background-color: #4e2a84;
+    color: gold;
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Question and Story Text Styling */
+#story {
+    text-align: center;
+    max-width: 600px;
+    margin: 20px;
+    font-size: 1.5rem;
+    color: #FFD700;  /* Golden color for the questions */
+}
+
+/* Story Image */
+#storyImage {
+    width: 100%;
+    max-width: 500px;
+    border: 3px solid #4e2a84;
+    margin-top: 10px;
+}
+
+/* Choices Section */
+#choices {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Buttons */
+.choiceButton {
+    background-color: #f0c674;
+    color: #4e2a84;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    width: 220px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.choiceButton:hover {
+    background-color: #d7a800;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* End Game Section */
+#endGameMessage {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #FFD700;
+}
+
+#endGameMessage button {
+    background-color: #4e2a84;
+    color: gold;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#endGameMessage button:hover {
+    background-color: #d7a800;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Hidden elements */
+.hidden {
+    display: none;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #4e2a84;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    #story {
+        font-size: 1.2rem;
+    }
+
+    .choiceButton {
+        width: 180px;
+    }
+}
